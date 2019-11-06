@@ -11,11 +11,11 @@
 		28112CBF23726A7B00EA5DDB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28112CBE23726A7B00EA5DDB /* SceneDelegate.swift */; };
 		28112CC223726A7B00EA5DDB /* Radar_v1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28112CC023726A7B00EA5DDB /* Radar_v1.xcdatamodeld */; };
 		28112CC423726A7B00EA5DDB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28112CC323726A7B00EA5DDB /* ContentView.swift */; };
-		28112CC623726A7B00EA5DDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28112CC523726A7B00EA5DDB /* Assets.xcassets */; };
 		28112CC923726A7B00EA5DDB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28112CC823726A7B00EA5DDB /* Preview Assets.xcassets */; };
 		28112CCC23726A7B00EA5DDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28112CCA23726A7B00EA5DDB /* LaunchScreen.storyboard */; };
 		28112CD723726A7B00EA5DDB /* Radar_v1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28112CD623726A7B00EA5DDB /* Radar_v1Tests.swift */; };
 		28112CE223726A7B00EA5DDB /* Radar_v1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28112CE123726A7B00EA5DDB /* Radar_v1UITests.swift */; };
+		28112CF023726B9F00EA5DDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28112CEF23726B9F00EA5DDB /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 		28112CBE23726A7B00EA5DDB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		28112CC123726A7B00EA5DDB /* Radar_v1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Radar_v1.xcdatamodel; sourceTree = "<group>"; };
 		28112CC323726A7B00EA5DDB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		28112CC523726A7B00EA5DDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28112CC823726A7B00EA5DDB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		28112CCB23726A7B00EA5DDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28112CCD23726A7B00EA5DDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		28112CDD23726A7B00EA5DDB /* Radar_v1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Radar_v1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28112CE123726A7B00EA5DDB /* Radar_v1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radar_v1UITests.swift; sourceTree = "<group>"; };
 		28112CE323726A7B00EA5DDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28112CEF23726B9F00EA5DDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 				28112CBC23726A7B00EA5DDB /* AppDelegate.swift */,
 				28112CBE23726A7B00EA5DDB /* SceneDelegate.swift */,
 				28112CC323726A7B00EA5DDB /* ContentView.swift */,
-				28112CC523726A7B00EA5DDB /* Assets.xcassets */,
+				28112CEF23726B9F00EA5DDB /* Assets.xcassets */,
 				28112CCA23726A7B00EA5DDB /* LaunchScreen.storyboard */,
 				28112CCD23726A7B00EA5DDB /* Info.plist */,
 				28112CC023726A7B00EA5DDB /* Radar_v1.xcdatamodeld */,
@@ -244,8 +244,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				28112CCC23726A7B00EA5DDB /* LaunchScreen.storyboard in Resources */,
+				28112CF023726B9F00EA5DDB /* Assets.xcassets in Resources */,
 				28112CC923726A7B00EA5DDB /* Preview Assets.xcassets in Resources */,
-				28112CC623726A7B00EA5DDB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
